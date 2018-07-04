@@ -29,6 +29,7 @@ public class UUserServiceImpl extends BaseMybatisDao<UUserMapper> implements UUs
 	 * */
 	@Autowired
 	CustomSessionManager customSessionManager;
+//	调用mapper接口登录
 	@Autowired
 	UUserMapper userMapper;
 	@Autowired

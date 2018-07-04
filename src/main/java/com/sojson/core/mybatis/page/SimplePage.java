@@ -119,8 +119,4 @@ public class SimplePage implements Paginable {
 	public void setFilterNo(int filterNo) {
 		this.filterNo = filterNo;
 	}
-
-
-	
-	
 }

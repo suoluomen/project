@@ -269,6 +269,4 @@ public class BaseMybatisDao<T> extends SqlSessionDaoSupport {
 		}
 		return ps;
 	}
-	
-
 }
