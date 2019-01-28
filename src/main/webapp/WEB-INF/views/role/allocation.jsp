@@ -124,7 +124,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div class="container" style="padding-bottom: 15px;min-height: 300px; margin-top: 40px;">
 			<div class="row">
 				<%--引入左侧菜单--%>
-				<shiro:hasAnyRoles name='888888,100003'>  
+				<shiro:hasAnyRoles name='100004,100003'>
 					<div id="one" class="col-md-2">
 						<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">
 						 <shiro:hasPermission name="/role/index.shtml">

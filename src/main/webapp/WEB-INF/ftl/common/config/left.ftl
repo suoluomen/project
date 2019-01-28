@@ -19,7 +19,7 @@
 </div>
 </#macro>
 <#macro member index>
-	<@shiro.hasAnyRoles name='888888,100002'>          
+	<@shiro.hasAnyRoles name='100004,100002'>
 		<div  id="one" class="col-md-2">
 			<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">
 			  <li class="${(index==1)?string('active',' ')}">
@@ -37,7 +37,7 @@
 	</@shiro.hasAnyRoles>         
 </#macro>
 <#macro role index>
-	<@shiro.hasAnyRoles name='888888,100003'>  
+	<@shiro.hasAnyRoles name='100004,100003'>
 		<div id="one" class="col-md-2">
 			<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">
 			 

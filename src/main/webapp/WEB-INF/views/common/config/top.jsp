@@ -33,7 +33,7 @@
 					</ul>
 				</li>	  
 				<%--拥有 角色888888（管理员） ||  100002（用户中心）--%>
-				<shiro:hasAnyRoles name='888888,100002'>          
+				<shiro:hasAnyRoles name='100004,100002'>
 				<li class="dropdown ">
 					<a aria-expanded="false" aria-haspopup="true"  role="button" data-toggle="dropdown" class="dropdown-toggle" href="<%=basePath%>/member/list.shtml">
 						用户中心<span class="caret"></span>
@@ -49,7 +49,7 @@
 				</li>	
 				</shiro:hasAnyRoles>         
 				<%--拥有 active888888（管理员） ||  100003（权限频道）--%>
-				<shiro:hasAnyRoles name='888888,100003'>
+				<shiro:hasAnyRoles name='100004,100003'>
 					<li class="dropdown active">
 						<a aria-expanded="false" aria-haspopup="true"  role="button" data-toggle="dropdown" class="dropdown-toggle" href="/permission/index.shtml">
 							权限管理<span class="caret"></span>

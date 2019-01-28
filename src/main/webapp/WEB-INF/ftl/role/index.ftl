@@ -120,7 +120,7 @@
 									<td>${it.name?default('-')}</td>
 									<td>${it.type?default('-')}</td>
 									<td>
-										<#if it.type != '888888'>
+										<#if it.type != '100004'>
 											<@shiro.hasPermission name="/role/deleteRoleById.shtml">
 												<i class="glyphicon glyphicon-remove"></i><a href="javascript:deleteById([${it.id}]);">删除</a>
 								         	</@shiro.hasPermission>

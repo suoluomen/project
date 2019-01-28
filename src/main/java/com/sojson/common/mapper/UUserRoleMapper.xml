@@ -17,6 +17,7 @@
   	delete from u_user_role where uid in(#{userIds,jdbcType=VARCHAR})
   </delete>
   <!-- 根据用户roleId查询用户ID -->
+  <!--传参使用parameterType 返回使用resultType-->
   <select id="findUserIdByRoleId" resultType="long">
   	select uid from u_user_role where rid =  #{id,jdbcType=BIGINT}
   </select>
